@@ -1,0 +1,90 @@
+<html>
+
+<head>
+    <link rel="SHORTCUT ICON" href="images/logo.png" />
+    <meta charset="utf-8">
+    <title>womany X Lab 跨界實驗室</title>
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Play' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="flexslider.css" type="text/css" media="screen" />
+    <script src="modernizr.js"></script>
+    <!-- jQuery -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script>
+    window.jQuery || document.write('<script src="js/libs/jquery-1.7.min.js">\x3C/script>')
+    </script>
+    <!-- FlexSlider -->
+    <script defer src="jquery.flexslider.js"></script>
+    <script type="text/javascript">
+    $(function() {
+        SyntaxHighlighter.all();
+    });
+    $(window).load(function() {
+        $('.flexslider').flexslider({
+            animation: "slide",
+            start: function(slider) {
+                $('body').removeClass('loading');
+            }
+        });
+    });
+    </script>
+</head>
+
+<body>
+
+    <body>
+        <nav>
+            <ul>
+                
+                <li>
+                    <p id="today">今天是<strong>5/15</strong> ↦ 瞧瞧 Daisy Chang的Idea吧！</p>
+                </li>
+                <li>
+                    <a id="home" href="http://womany.net/?ref=s-nav"></a>
+                </li>
+                <li>
+                    <a id="facebook" href="https://www.facebook.com/ooorangee"></a>
+                </li>
+                <li>
+                    <a id="linkedin" href="https://www.linkedin.com/profile/view?id=360418430&trk=nav_responsive_tab_profile_pic"></a>
+                </li>
+                <li>
+                    <form id='search' action='http://www.google.com/search' target="_blank" method='get'>
+                        <input type="hidden" name="sitesearch" value="網址" />
+                        <input id="s" name="q" type="text" />
+                        <input id="r" type="submit" name="btn" value="" title="搜尋" />
+                    </form>
+                </li>
+            </ul>
+        </nav>
+        <div id="leftblock">
+            <div id="intro"><img id="user" src="images/user.png">
+                <p id="user">嘿，ooorang...</p><img src="images/w.png"><img src="images/setting.png"><img id="ratio" src="images/ratio.png"></div>
+            <div id="myself">
+                <ul>
+                    <li id="one">
+                        <a href="index.html##homee"><img src="images/gg.png">首頁</a>
+                    </li>
+                    <li id="about"><a href="index.html#aboutme">關於悠然</a></li>
+                    <li id="me"><a href="index.html#meb">自傳分享</a></li>
+                    <li id="plan"><a href="index.html#plann">企劃經驗</a></li>
+                    <li id="work"><a href="index.html#flexslidera">作品剪輯</a></li>
+                    <li id="idea"><a href="#">Lab關鍵字:跨</a></li>
+                    <li id="download"><a href="download.html">CV自傳下載</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="cross">
+            <h6>X Lab 跨界實驗室</h6>
+            <h5> 企劃名稱:「一起來女人迷讀吧！」<br>
+            	提案對象:女人迷讀吧App<br>
+            	</h5>
+            <iframe src="womanyy.pdf" style="width:600px; height:540px;" frameborder="0"></iframe>
+        </div>
+    </body>
+
+</html>

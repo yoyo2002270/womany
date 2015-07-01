@@ -1,0 +1,681 @@
+@charset "utf-8";
+/* CSS Document */
+
+nav {
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    z-index: 2;
+}
+
+nav ul li {
+    float: left;
+    position: relative;
+}
+
+nav ul li img {
+    height: 40px;
+    width: auto;
+    margin: 10px 10px 10px 50px;
+    display: inline;
+    position: relative;
+    left: 20px;
+    top: 0px;
+}
+
+nav ul li p#today {
+    font-size: 15px;
+    font-family: calibri;
+    color: white;
+    position: relative;
+    left: 230px;
+    top: 15px;
+    display: inline;
+    margin: 0px auto;
+}
+
+nav ul li a#home {
+    position: relative;
+    left: 320px;
+    display: block;
+    top: 10px;
+    width: 45px;
+    height: 45px;
+    background-image: url("images/house1.png")
+}
+
+nav ul li a#facebook {
+    position: relative;
+    left: 330px;
+    display: block;
+    top: 10px;
+    width: 45px;
+    height: 45px;
+    background-image: url("images/facebook2.png")
+}
+
+nav ul li a#linkedin {
+    position: relative;
+    left: 340px;
+    display: block;
+    top: 10px;
+    width: 45px;
+    height: 45px;
+    background-image: url("images/linkedin.png")
+}
+
+nav ul li a#home:hover {
+    background-image: url("images/house3.png")
+}
+
+nav ul li a#facebook:hover {
+    background-image: url("images/facebook3.png")
+}
+
+nav ul li a#linkedin:hover {
+    background-image: url("images/linkedinn.png")
+}
+
+strong {
+    font-size: 30px;
+}
+
+nav ul li form#search {
+    position: relative;
+    left: 380px;
+    display: block;
+    top: 25px;
+    width: 154px;
+    height: 18px;
+    background: url("http://lh6.ggpht.com/_HjB26hkIEK8/S4PkLBjK9pI/AAAAAAAAJ34/biJAL3xd-88/search.gif") no-repeat;
+}
+
+nav ul li form#search input#s {
+    width: 125px;
+    height: 14px;
+    margin: 1px;
+    padding: 1px;
+    border: none;
+    background: none;
+    color: #DDDDDD;
+    font-family: Arial;
+}
+
+nav ul li form#search input#r {
+    width: 20px;
+    height: 14px;
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+/*左欄固定欄位編輯開始*/
+
+#leftblock {
+    width: 210px;
+    height: 100%;
+    background-color: #eeeeee;
+    position: fixed;
+    top: 60px;
+    z-index: 1;
+}
+
+#leftblock #intro img#user {
+    position: relative;
+    top: 30px;
+}
+
+#leftblock #intro p#user {
+    display: inline;
+    left: 100px;
+    color: #888888;
+    font-family: 微軟正黑體;
+    Calibri;
+}
+
+#leftblock #intro img {
+    position: relative;
+    top: 20px;
+}
+/*左欄固定欄選項開始*/
+
+#leftblock #myself {
+    position: relative;
+    top: 50px;
+}
+
+#leftblock #myself ul li a {
+    width: 210px;
+    height: 40px;
+    background-color: #eeeeee;
+    text-align: center;
+    line-height: 40px;
+    color: #888888;
+    display: block;
+}
+
+#leftblock #myself ul li#one a {
+    background-color: white;
+}
+
+#leftblock #myself ul li a:hover {
+    background-color: #AAAAAA;
+}
+
+#leftblock #myself ul li#one a:hover {
+    background-color: #AAAAAA;
+}
+
+#leftblock #myself ul li#one img {
+    position: relative;
+    top: 5px;
+}
+/*安安安安 慢慢長主頁來了*/
+
+#homee {
+    position: relative;
+    width: 100%;
+    height: 670px;
+    left: 210px;
+    top: 60px;
+}
+
+#homee .flexslider {
+    position: relative;
+    bottom: 5px;
+    left: -5px;
+    z-index: 0;
+    width: 85%;
+    height: 650px;
+}
+
+#aboutme {
+    position: relative;
+    left: 210px;
+    width: 100%;
+    height: 560px;
+    background-color: white;
+}
+
+#aboutme img {
+    display: block;
+    position: relative;
+    top: 100px;
+    left: 50px;
+}
+
+h1 {
+    position: absolute;
+    top: 120px;
+    left: 400px;
+    font-size: 40px;
+    color: #666666;
+    font-family: '微軟正黑體', sans-serif;
+}
+
+#aboutme p#namee {
+    display: block;
+    position: absolute;
+    top: 120px;
+    left: 530px;
+    font-size: 40px;
+    color: #FF8888;
+    font-family: 'Play', sans-serif;
+}
+
+#aboutme p#about {
+    display: block;
+    position: absolute;
+    top: 160px;
+    left: 400px;
+    line-height: 25px;
+    font-size: 15px;
+    font-family: 'Play', sans-serif;
+    color: #AAAAAA;
+}
+
+hr#aa {
+    display: block;
+    position: absolute;
+    top: 250px;
+    left: 400px;
+}
+
+h2 {
+    font-size: 33px;
+    color: #FF8888;
+    font-family: '微軟正黑體', sans-serif;
+}
+
+#aboutme h2 {
+    position: absolute;
+    top: 290px;
+    left: 400px;
+}
+
+#aboutme p#edu {
+    display: block;
+    position: absolute;
+    top: 290px;
+    left: 470px;
+    line-height: 25px;
+    font-size: 18px;
+    font-family: 'Play', sans-serif;
+    color: #AAAAAA;
+}
+
+#aboutme #other {
+    position: absolute;
+    top: 390px;
+    left: 390px;
+}
+
+#aboutme #other ul li {
+    float: left;
+    font-family: calibri;
+    font-size: 22px;
+    margin: 5px;
+}
+
+#aboutme #other ul li a#za {
+    display: block;
+    width: 150px;
+    height: 150px;
+    background-image: url("images/ffa.png");
+}
+
+#aboutme #other ul li a#za:hover {
+    background-image: url("images/ffb.png");
+}
+
+#aboutme #other ul li a#zb {
+    display: block;
+    width: 150px;
+    height: 150px;
+    background-image: url("images/ffc.png");
+}
+
+#aboutme #other ul li a#zb:hover {
+    background-image: url("images/ffd.png");
+}
+
+#aboutme #other ul li a#zc {
+    display: block;
+    width: 150px;
+    height: 150px;
+    background-image: url("images/ffe.png");
+}
+
+#aboutme #other ul li a#zc:hover {
+    background-image: url("images/fff.png");
+}
+/*工作經驗來囉*/
+
+#job {
+    position: relative;
+    left: 210px;
+    width: 100%;
+    height: 530px;
+    background-color: #FFE4E1;
+}
+
+#job h2 {
+    position: absolute;
+    top: 80px;
+    left: 260px;
+}
+
+#job p#joba {
+    display: block;
+    position: absolute;
+    top: 120px;
+    left: 260px;
+    line-height: 25px;
+    font-size: 18px;
+    font-family: 'Play', sans-serif;
+    color: #888888;
+}
+
+#job p#jobb {
+    display: block;
+    position: absolute;
+    top: 250px;
+    left: 260px;
+    line-height: 25px;
+    font-size: 18px;
+    font-family: 'Play', sans-serif;
+    color: #888888;
+}
+
+#job p#jobc {
+    display: block;
+    position: absolute;
+    top: 360px;
+    left: 260px;
+    line-height: 25px;
+    font-size: 18px;
+    font-family: 'Play', sans-serif;
+    color: #888888;
+}
+
+#extra {
+    position: relative;
+    left: 210px;
+    width: 100%;
+    height: 560px;
+    background-image: #aaaaaa;
+}
+
+#extra h2 {
+    position: absolute;
+    top: 80px;
+    left: 260px;
+}
+
+#extra p#extraa {
+    display: block;
+    position: absolute;
+    top: 130px;
+    left: 260px;
+    line-height: 25px;
+    font-size: 18px;
+    font-family: 'Play', sans-serif;
+    color: #888888;
+}
+
+#extra p#extrab {
+    display: block;
+    position: absolute;
+    top: 260px;
+    left: 260px;
+    line-height: 25px;
+    font-size: 18px;
+    font-family: 'Play', sans-serif;
+    color: #888888;
+}
+
+#extra p#extrac {
+    display: block;
+    position: absolute;
+    top: 410px;
+    left: 260px;
+    line-height: 25px;
+    font-size: 18px;
+    font-family: 'Play', sans-serif;
+    color: #888888;
+}
+
+#picc {
+    position: relative;
+    left: 210px;
+    width: 100%;
+    height: 456px;
+    background-image: url("images/flowerr.png");
+}
+
+#elsee {
+    position: relative;
+    left: 210px;
+    width: 100%;
+    height: 530px;
+    background-color: white;
+}
+
+#elsee h2 {
+    position: absolute;
+    top: 80px;
+    left: 260px;
+}
+
+#elsee p#elsea {
+    display: block;
+    position: absolute;
+    top: 130px;
+    left: 260px;
+    line-height: 25px;
+    font-size: 18px;
+    font-family: 'Play', sans-serif;
+    color: #888888;
+}
+
+#elsee img#aaa {
+    display: block;
+    position: absolute;
+    top: 300px;
+    left: 260px;
+}
+
+#elsee img#bbb {
+    display: block;
+    position: absolute;
+    top: 300px;
+    left: 600px;
+}
+
+#meb {
+    position: relative;
+    left: 210px;
+    width: 100%;
+    height: 1680px;
+    background-image: url("images/meee.png");
+}
+
+#meb h3 {
+    font-size: 33px;
+    color: #666666;
+    font-family: 'Play', sans-serif;
+    position: absolute;
+    top: 60px;
+    left: 150px;
+}
+
+#meb hr#bb {
+    display: block;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+#meb p#cona {
+    display: block;
+    position: absolute;
+    width: 800px;
+    top: 120px;
+    left: 100px;
+    line-height: 25px;
+    font-size: 18px;
+    color: #666666;
+}
+
+#meb p#conb {
+    display: block;
+    position: absolute;
+    width: 800px;
+    top: 250px;
+    left: 100px;
+    line-height: 25px;
+    font-size: 18px;
+    color: #666666;
+}
+
+#meb h4 {
+    font-size: 20px;
+    color: #FF8888;
+    font-family: 'Play', sans-serif;
+    position: absolute;
+    top: 245px;
+    left: 100px;
+}
+
+#meb h5 {
+    font-size: 20px;
+    color: #FF8888;
+    font-family: 'Play', sans-serif;
+    position: absolute;
+    top: 525px;
+    left: 100px;
+}
+
+#meb p#conc {
+    display: block;
+    position: absolute;
+    width: 800px;
+    top: 550px;
+    left: 100px;
+    line-height: 25px;
+    font-size: 18px;
+    color: #666666;
+}
+
+#meb h6 {
+    font-size: 20px;
+    color: #FF8888;
+    font-family: 'Play', sans-serif;
+    position: absolute;
+    top: 1100px;
+    left: 100px;
+}
+
+#meb p#cond {
+    display: block;
+    position: absolute;
+    width: 800px;
+    top: 1125px;
+    left: 100px;
+    line-height: 25px;
+    font-size: 18px;
+    color: #666666;
+}
+
+#plann {
+    position: relative;
+    left: 210px;
+    width: 100%;
+    height: 700px;
+    background-image: url("images/backk.png");
+}
+
+#plann iframe {
+    display: block;
+    position: absolute;
+    top: 120px;
+    left: 120px;
+}
+
+#plann h2 {
+    position: absolute;
+    top: 60px;
+    left: 100px;
+    color: #E63F00;
+}
+
+#workk {
+    position: relative;
+    left: 210px;
+    width: 100%;
+    height: 560px;
+    background-image: white;
+}
+
+#flexslidera {
+    position: relative;
+    left: 210px;
+    width: 100%;
+    height: 700px;
+    background-image: url("images/hohola.png");
+}
+
+#flexslidera h2 {
+    position: absolute;
+    top: 230px;
+    left: 520px;
+}
+
+#flexslidera hr#ff {
+    position: absolute;
+    top: 270px;
+    left: 520px;
+}
+
+#flexslidera ul#workshare {
+    list-style-image: square;
+    display: block;
+    position: absolute;
+    width: 500px;
+    top: 310px;
+    left: 520px;
+}
+
+#flexslidera ul#workshare li {
+    line-height: 25px;
+    font-size: 18px;
+    color: #FFA488;
+}
+
+#flexslidera .flexslider {
+    position: relative;
+    left: 120px;
+    top: 120px;
+    width: 353px;
+    height: 500px;
+    background-image: white;
+}
+/*副業來了～～～～～～～～～*/
+
+#cross {
+    position: relative;
+    left: 210px;
+    width: 100%;
+    height: 700px;
+    background-image: url("images/uku.png");
+}
+
+#cross h6 {
+    display: block;
+    position: absolute;
+    top: 130px;
+    left: 750px;
+    font-size: 30px;
+    color: #CC0000;
+}
+
+#cross h5 {
+    display: block;
+    position: absolute;
+    left: 750px;
+    top: 200px;
+    font-size: 18px;
+    color: #CC0000;
+    background-color: #FFA488;
+    padding: 15px;
+    box-shadow: 4px 4px rgba(20%, 20%, 40%, 0.5);
+}
+
+#cross iframe {
+    display: block;
+    position: absolute;
+    top: 120px;
+    left: 120px;
+}
+
+#yo {
+    position: relative;
+    left: 210px;
+    width: 100%;
+    height: 700px;
+    background-color: #FFC8B4;
+}
+
+#yo iframe#yaa {
+    display: block;
+    position: absolute;
+    top: 120px;
+    left: 0px;
+}
+
+#yo iframe#yab {
+    display: block;
+    position: absolute;
+    top: 120px;
+    left: 610px;
+}
